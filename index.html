@@ -11,6 +11,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCNWzVV10prnFjGTAh8wUmuh7wyNzIRwe8",
+          authDomain: "to-do-app-5a6e6.firebaseapp.com",
+          databaseURL: "https://to-do-app-5a6e6.firebaseio.com",
+          projectId: "to-do-app-5a6e6",
+          storageBucket: "to-do-app-5a6e6.appspot.com",
+          messagingSenderId: "667286547556",
+          appId: "1:667286547556:web:49b40bcc78e0b5913ac371",
+          measurementId: "G-W990V6TNZZ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
     <title>To Do Application</title>
 </head>
 
